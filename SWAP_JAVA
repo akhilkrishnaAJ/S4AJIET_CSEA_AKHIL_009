@@ -1,0 +1,42 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int a=2;
+	    int b=3;
+	    System.out.println("A="+a+",B="+b);
+	    int c=a;
+	    a=b;
+	    b=a;
+		System.out.println("after swap");
+		System.out.println("A="+a+",B="+b);
+	}
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int a=2;
+	    int b=3;
+	    System.out.println("A="+a+",B="+b);
+	    a=a+b;
+	    b=a-b;
+	    a=a-b;
+		System.out.println("after swap");
+		System.out.println("A="+a+",B="+b);
+	}
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int a=10;
+	    int b=11;
+	    System.out.println("A="+a+",B="+b);
+	    a=a^b;
+	    b=a^b;
+	    a=a^b;
+		System.out.println("after swap");
+		System.out.println("A="+a+",B="+b);
+	}
+}
