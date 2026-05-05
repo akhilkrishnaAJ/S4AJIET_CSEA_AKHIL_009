@@ -18,6 +18,6 @@ public class Main
                 cut++;
             }
         }
-        System.out.println("Number of ranks cut in the lis:"+cut);
+        System.out.println("Number of ranks cut in the list:"+cut);
     }
 }
