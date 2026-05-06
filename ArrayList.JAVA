@@ -7,7 +7,7 @@ public class Main
 	    list.add("Python");
 	    list.add("Java");
 	      System.out.println(list);
-	    list.add(0,"salim");
+	    list.add(0,"C++");
 	     System.out.println(list);
 	    list.set(1,"ADA");
 	    System.out.println(list);
